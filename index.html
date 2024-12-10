@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel+Decorative:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>KwasuHub</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="logo">
+            <a href="#">
+                <img src="./media/khlogo.PNG" alt="KwasuHub">
+            </a>
+        </div>
+        
+        <!-- Hamburger Icon for Small Screens -->
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    
+        <!-- Navbar Menu -->
+        <div class="nav-center">
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Departments</a></li>
+                <li><a href="#">Groups</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </div>
+        
+        <div class="cta-button">
+            <a href="#" class="btn">Log In</a>
+        </div>
+    </nav>
+    
+
+    
+
+    <section class="Emp">
+        <div class="content">
+            <h1 id="learning-resources-title">Empowering Kwasu Students with Easy Access to Learning Resources</h1>
+            <p>Access course materials, connect with class reps, and join departmental groups.</p>
+            <a href="#" class="ctaa-button" role="button">Start Now</a>
+        </div>
+        <figure class="image-container">
+            <img src="./media/student1b.png" alt="Three students studying together" />
+        </figure>
+    </section>
+
+    <section class="broadc">
+        <div class="mockup1">
+            <img src="./Media/front-view-stacked-books-ladders-with-copy-space-education-day.png" alt="">
+        </div>
+        <div class="setup1">
+            <h1>Course Material Access</h1>
+            <p>Effortlessly explore, browse, and download all your essential course materials in a single, organized
+                space. Access lecture notes,readings, and resources with ease, keeping you on track and prepared for
+                every class. Enjoy streamlined navigation and quick access to the materials you need, anytime, anywhere.
+            </p>
+        </div>
+    </section>
+
+    <section class="broadc">
+        <div class="setup2">
+            <h1>Department Groups</h1>
+            <p>Stay connected and informed by joining your department's dedicated WhatsApp groups through convenient
+                links available on this platform. Engage with classmates, receive important updates, collaborate on
+                assignments, and discuss course topics effortlessly. These groups are designed to keep you connected
+                with your peers and faculty, making communication and teamwork easier than ever.</p>
+        </div>
+
+        <div class="mockup2">
+            <img src="./Media/study-group-african-people (1).png" alt="">
+        </div>
+    </section>
+
+    <section class="broadc">
+        <div class="mockup2">
+            <img src="./Media/cheerful-man-classroom-posing-camera.png" alt="">
+        </div>
+        <div class="setup3">
+            <h1>Class Reps Directory</h1>
+            <p>Contact your class reps for guidance and support on WhatsApp through the message link on this platform.
+            </p>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="ban">
+            <h1>
+                Ready to Join Kwasu Hub?
+            </h1>
+            <div class="links">
+                <a href="#">Create Account</a>
+                <p>Already a member? <a href="#">Log In</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="quick">
+            <div class="ql">
+                <ul class="ql-menu">
+                    <h2>Quick Links</h2>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Departments</a></li>
+                    <li><a href="#">Groups</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+
+                <ul class="ql-menu">
+                    <h2>Send Us a Mail</h2>
+                    <p>info@kwasuHub@gmail.com</p>
+                    <li><a href="#">Kwara State University</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="copy">
+            <p>
+                © 2024 KWASU Platform. All rights reserved.
+            </p>
+        </div>
+    </footer>
+    <script>
+        // Get elements
+        const hamburger = document.getElementById("hamburger");
+        const navMenu = document.getElementById("nav-menu");
+
+        // Toggle menu when hamburger is clicked
+        hamburger.addEventListener("click", () => {
+            navMenu.classList.toggle("active");
+            hamburger.classList.toggle("open"); // Optional: Toggle hamburger icon style when clicked
+        });
+    </script>
+
+</body>
+</html>
